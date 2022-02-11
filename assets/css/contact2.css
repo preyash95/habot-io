@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: #F5F5F5;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+
+   .page-container {
+    max-width: 1440px;
+    width: 100%;
+    align-items: baseline;
+    margin: 0px auto;
+    }
+
+/* navbar  */
+.varal-navbar {
+	background: #fff !important;
+}
+
+.varal-logo {
+	height: auto;
+	width: 60px;
+}
+
+.varal-nav-center {
+	margin-right: 72px;
+}
+
+.varal-login {
+	margin-right: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.varal-nav-link {
+	font-size: 18px;
+	margin: 0px 7px;
+	font-weight: normal;
+	color: #525DED !important;
+}
+
+.varal-active {
+	font-weight: 600;
+	position: relative;
+	animation-name: active-anim;
+}
+.sign-btn{
+ background: #525DED !important;
+border-radius: 2px !important;
+color: white !important;
+margin-left: 20px;
+}
+@keyframes dot {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+ /* Contract Body  */
+
+ .title-content{
+margin: 40px 0 0 105px !important;
+
+ }
+ .title-content p{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+    margin-left: 105px 0 0 0;
+color: #334F55;
+
+ }
+ .title-content h6{
+  font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+
+color: #334F55;
+ }
+ .title-content svg{
+  margin-right: 15px;
+ }
+.contract-content-wrapper{
+ margin: 65px 0 165px 105px;
+ max-width: 1249px;
+ width: 100%;
+ background: #FFFFFF;
+ min-height: 681px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+padding: 58px 78px 111px 0px;
+align-items: center;
+display: flex;
+}
+.contract-content-wrapper p{
+ font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #C1C1C1;
+
+}
+.contract-content-wrapper .left-img-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        max-width: 620px;
+    width: 100%;
+}
+.contract-content-wrapper .left-img-content > div{
+        max-width: 294px;
+}
+.contract-content-wrapper svg{
+   width: 293px;
+      height: 307px;
+}
+.contract-content-wrapper .form-group .form-control{
+max-width: 515px;
+width: 100%;
+margin-bottom: 25px;
+height: 60px;
+font-style: normal;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 22px !important;
+
+color: #ADADAD !important;
+border: 1px solid #ADADAD;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.contract-content-wrapper .form-group .questions-form{
+  height: 148px;
+  padding: 10px 20px;
+  margin-top: 43px;
+}
+.contract-content-wrapper .form-group .submit-button{
+  background: #525DED;
+  color: white !important;
+}
+.input-field{
+ max-width: 525px;
+    width: 100%;
+}
+
+/* Responsive  */
+@media only screen and (max-width: 1440px) {
+  .contract-content-wrapper {
+   max-width: 1000px;
+  }
+}
+@media only screen and (max-width: 1194px) {
+  .contract-content-wrapper {
+   max-width: 860px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .contract-content-wrapper {
+   max-width: 730px;
+   margin: 20px auto;
+   padding: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contract-content-wrapper {
+  display: block;
+  }
+  .contract-content-wrapper .form-group .form-control {
+    max-width: 100%;
+    width: 100%;
+  }
+  .input-field {
+    max-width: 100%;
+    width: 100%;
+  }
+  .title-content {
+    margin: 40px 0 0 100px !important;
+}
+  .contract-content-wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width: 576px) {
+    .title-content {
+    margin: 0 !important;
+}
+ .contract-content-wrapper {
+    max-width: 280px;
+}
+}

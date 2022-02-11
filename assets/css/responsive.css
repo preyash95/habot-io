@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media only screen and (max-width: 768px) {
+    .banner-img{
+        width: auto !important;
+        height: 300px;
+    }
+    .image-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-text-wrapper{
+        padding: 15px 25px 80px 25px;
+    }
+    .varal-navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .varal-nav-center{
+        margin-right: 0px;
+        align-items: center;
+    }
+    .story-content{
+        margin: 0px 0px;
+        font-size: 19px;
+    }
+    .story-wrapper{
+        padding: 20px 25px;
+    }
+    .value-image{
+        width: 100%;
+        padding: 40px;
+    }
+    .value-one{
+        font-size: 29px;
+    line-height: 40px;
+    margin-top: 30px;
+    text-align: center;
+    }
+    .value-description{
+        margin: 30px 0px 30px 0px;
+        font-size: 19px;
+        text-align: center;
+    }
+    .value-content{
+        padding: 15px 30px;
+    }
+    .value-link{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .input-wrapper{
+        justify-content: center;
+    }
+    .row{
+        margin: 0px 0px;
+    }
+    .mob-img{
+        display: block !important;
+    }
+    .img-3{
+        display: none;
+    }
+    #address{
+        padding: 10px 68px;
+    }
+    .slope{
+        width: 100% !important;
+    }
+    
+}
+
+ @media only screen and (min-width: 768px) and (max-width:1118px) {
+    .banner-img{
+        width: 100% !important;
+    }
+    .slope{
+        
+        top: 331px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .value-image{
+        width: 100%;
+    }
+    .value-one{
+        font-size: 31px;
+    }
+    .value-description{
+        font-size: 19px;
+    }
+    .value-link{
+        font-size: 20px;
+    }
+    .story-content{
+        margin: 0px 10px;
+    }
+    .explore-btn-banner{
+        margin-bottom: 20px;
+    }
+    .img-3{
+        display: block;
+    }
+    .mob-img{
+        display: none !important;
+    }
+    .content-aligned{
+        margin-left: 20px;
+    }
+    #address{
+        padding: 0px;
+    }
+    .varal-nav-center{
+        margin-right: 0px;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 517px) {
+.varal-story{
+    margin-top: 45px;
+}
+}
+  
