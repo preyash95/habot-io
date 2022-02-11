@@ -363,6 +363,9 @@ body {
     text-align: justify;
     color: #ffffff;
   }
+  .contact-banner {
+    margin-top: 80px !important;
+  }
 }
 @media only screen and (max-width: 767px) {
   .card__second {
@@ -621,6 +624,47 @@ body {
 .slick-dots li button:before {
   font-size: 9px;
   content: "•";
+}
+.dn {
+  display: none;
+}
+.slides .overlay {
+  background: linear-gradient(
+    90.21deg,
+    #22556b 2.17%,
+    rgba(34, 85, 107, 0) 104.68%
+  );
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 10px;
+  color: white;
+}
+.wrapper:hover .dn{
+  display: block;
+}
+.slides .wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+.slides .overlay h2 {
+  width: 120px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+
+.slides .overlay button {
+  font-size: 48px;
+  width: 100%;
+  color: white;
+  background-color: #22556b;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .secondBanner__header {
