@@ -682,7 +682,7 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-
+/* second banner  */
 .secondBanner__header {
   font-family: Noto Sans;
   font-style: normal;
@@ -692,6 +692,7 @@ body {
   text-align: center;
   color: #204052;
 }
+
 .secondBanner__img {
   position: relative;
   text-align: center;
@@ -723,6 +724,10 @@ body {
     font-size: 15px;
     padding: 0px 0px 0px 0px;
   }
+  .secondBanner__header {
+    font-size: 38px;
+    line-height: 45px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .secondBanner__text {
@@ -731,6 +736,10 @@ body {
   }
   .secondBanner__text-header {
     font-size: 30px;
+  }
+  .secondBanner__header {
+    font-size: 28px;
+    line-height: 35px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -741,6 +750,10 @@ body {
   .secondBanner__text-header {
     font-size: 15px;
     margin: -25px 0px 0px 0px;
+  }
+  .secondBanner__header {
+    font-size: 18px;
+    line-height: 0px;
   }
 }
 
